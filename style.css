@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-image: url("/back1.img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1.head{
+    font-size: 3rem;
+    color: rgb(164, 73, 149);
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    text-align: center;
+    background-color:rgb(219, 168, 210);
+    padding: 20px;
+}
+.header {
+    margin-top: 10px;
+    font-family: 'Yeseva One';
+}
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.header a:hover {
+    color: rgb(164, 73, 149);
+}
+p.one{
+    font-size: 2.5rem;
+    margin: 8% 0 0 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e889bd;
+
+}
+p.two{
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 1%;
+    color: #e889bd;
+}
+
+.intro{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2% 70% 0 3%;
+    color:chocolate;
+}
+     div.anchor{
+        margin: 10%;
+    }
+
+    div.anchor button{
+        color: purple;
+        border: 2px solid purple;
+        font-size: 1.5rem;
+        padding: 20px;
+        background-color: transparent;
+        appearance: none;
+        font-family: 'Yeseva One';
+        border-radius: 50px;
+    }
+    div.anchor button:hover{
+        transform: scale(1.1);
+        background-color:rgb(164, 73, 149);
+        color: #fff;
+        transition: all 0.3s linear;
+    }
+    footer {
+        text-align: center;
+        background-color: rgb(217, 148, 205);
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .footer {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-family: 'Pacifico';
+        color: rgb(164, 73, 149);
+    }
+    .foot a {
+        margin: 0 10px;
+        text-decoration: none;
+        color:#fff;
+    }
+    .foot a:hover {
+        color:#d45d00;
+    }
+    hr{
+        color: #fff;
+        width: 50%;
+        border: 2px solid #fff;
+        margin: 1% auto;
+    }
+    .end {
+        font-size: 1.2rem;
+        color: #fff;
+        font-family: 'Yeseva One';
+    }
+@media (max-width: 600px) {
+    h1.head {
+        font-size: 2.5rem;
+    }
+
+    p.one, p.two {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        margin: 5% 5%;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    div.anchor button {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .footer {
+        font-size: 1.5rem;
+    }
+
+    .end {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    h1.head {
+        font-size: 2.8rem;
+    }
+
+    p.one, p.two {
+        font-size: 2.2rem;
+    }
+
+    .intro {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding: 18px;
+    }
+
+    div.anchor button {
+        font-size: 1.4rem;
+        padding: 18px;
+    }
+
+    footer {
+        padding: 18px;
+    }
+
+    .footer {
+        font-size: 1.8rem;
+    }
+
+    .end {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 901px) {
+    h1.head {
+        font-size: 3rem;
+    }
+
+    p.one, p.two {
+        font-size: 2.5rem;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+    }
+
+    div.anchor {
+        margin: 5%;
+    }
+
+    div.anchor button {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .footer {
+        font-size: 2rem;
+    }
+
+    .end {
+        font-size: 1.2rem;
+}
+}

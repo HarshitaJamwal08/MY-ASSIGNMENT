@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5EFFF;
+}
+.container {
+    background-color: #D7C3F1;
+}
+h1.head {
+    font-family: 'Yeseva One';
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2%;
+    color: #0d1213;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.header a {
+    margin: 0 2%;
+    color: #0d1213;
+}
+.header a:hover {
+    color: rgb(10, 10, 38);
+    text-decoration: underline;
+}
+.one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.gallery-item {
+    width: 30%;
+    text-align: center;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.herocontent p, .herocontent1 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(43, 13, 51);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+footer {
+    height: 20vh;
+    margin-top: 2%;
+    background-color: #D7C3F1;
+}
+footer h1.footer {
+    color: #0d1213;
+    text-align: center;
+    font-family: 'Yeseva One';
+}
+footer .foot {
+    text-align: center;
+    margin-top: 1%;
+}
+footer .foot a {
+    color: #0d1213;
+    margin: 0 5%;
+    font-size: 1.2rem;
+}
+footer .foot a:hover {
+    text-decoration: underline;
+}
+hr {
+    color: #0d1213;
+    width: 700px;
+    margin: 1% auto;
+}
+p.end {
+    color: #0d1213;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    h1.head {
+        font-size: 3rem;
+    }
+    p.one {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1.head {
+        font-size: 2.5rem;
+    }
+    p.one {
+        font-size: 2.5rem;
+}
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color:#fff;
+    color: #333;
+    background-image:url(pastel.jpg);
+    background-size: cover;
+  }
+  header {
+    background-color: #fad5dd; 
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo h1 {
+    font-size: 3em; 
+    font-family: 'Pacifico', cursive; 
+    color: #f75e82;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em; 
+    color: #fa7191;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #ff85a2;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2em;
+    color:#ff85a2;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ff85a2;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 2px solid #ff85a2;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #fab4c4; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff85a2; 
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    font-size: 1.1em;
+    color:#ff85a2;
+    margin-bottom: 10px; 
+  }
+  .social-media {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: #ff85a2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .container {
+      margin: 30px 10px;
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo h1 {
+      font-size: 2em; /
+    }
+  
+    nav ul li a {
+      font-size: 1.2em; 
+  }
+  }
+  footer{
+    height: 20vh;
+    margin-top: 10.47%;
+    background-color:#fad5dd;
+}
+footer h1.footer{
+    color:#f75e82;
+    text-align: center;
+    font-family: 'Yeseva One';
+}
+footer div.foot{
+    margin-top: 1%;
+    margin-left: 34vw;
+}
+@media only screen and (max-width:600px) {
+    footer div.foot{
+        margin-left: 18vw;
+    }
+}
+div.foot a{
+    color: #f75e82;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+div.foot a:hover{
+    text-decoration: underline;
+}
+hr{
+    color:#f75e82;
+    width: 700px;
+    margin-left: 26%;
+    margin-top: 1%;
+}
+@media only screen and (max-width:600px) {
+    hr{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+p.end{
+    color: #f75e82;
+    font-size: 1.3rem;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+@media only screen and (max-width:600px) {
+    p.end{
+        margin-left:4%;
+        font-size:18px;
+}
+}
+
+  

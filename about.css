@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #493939;
+    line-height: 1.6;
+}
+.container {
+    text-align: center;
+    background-color: #f3c7c0;
+    padding: 20px;
+}
+.head {
+    font-size: 3rem;
+    color: #d45d00;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.header {
+    margin-top: 10px;
+    font-family: 'Yeseva One';
+}
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3b2e2e;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.header a:hover {
+    color: #d45d00;
+}
+.main {
+    text-align: center;
+    margin: 20px 0;
+}
+.about-img {
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+}
+h1.about{
+    font-size: 3rem;
+    font-family: 'Pacifico';
+    color: #d45d00;
+}
+.main2 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'Yeseva One';
+}
+.main3, .main5, .main7, .main9{
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'Yeseva One';
+}
+ .main4, .main6, .main8 {
+    margin: 20px 0;
+    text-align: center;
+}
+.selection-img {
+    width: 30%;
+    border-radius: 10px;
+}
+.sweet{
+    font-size: 3rem;
+    margin: 40px 0 10px 10px;
+    color:#d45d00;
+    font-family: 'Pacifico';
+}
+.cake, .cup, .dessert, .bake {
+    font-size: 2.6rem;
+    margin: 20px 0;
+    color: #d45d00;
+    font-family: 'Pacifico';
+}
+hr.small{
+    width: 50%;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    background-color: #f3c7c0;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.foot a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #3b2e2e;
+}
+.foot a:hover {
+    color: #d45d00;
+}
+.end {
+    font-size: 0.8rem;
+}
+@media (max-width: 768px) {
+    .head {
+        font-size: 2.5rem;
+    }
+
+    .header a {
+        font-size: 1rem;
+    }
+
+    .sweet, .cake, .cup, .dessert, .bake {
+        font-size: 1.5rem;
+    }
+
+    .main2, .main3, .main4, .main6, .main8 {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .head {
+        font-size: 2rem;
+    }
+
+    .header a {
+        font-size: 0.9rem;
+    }
+
+    .sweet, .cake, .cup, .dessert, .bake {
+        font-size: 1.3rem;
+    }
+
+    .main2 {
+        font-size: 0.9rem;
+}
+}
